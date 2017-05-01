@@ -1,0 +1,253 @@
+<html>
+
+<head>
+
+  <style>
+    .tile polygon,
+    #diagram-map-storage-array rect {
+      pointer-events: visiblePainted;
+      fill: hsl(60, 10%, 95%);
+      stroke: hsl(0, 0%, 70%);
+      stroke-width: 0.5;
+    }
+    
+    .tile.q-axis-same polygon {
+      fill: hsl( 90, 20%, 87%);
+    }
+    
+    .tile.r-axis-same polygon {
+      fill: hsl(200, 15%, 90%);
+    }
+    
+    .tile.s-axis-same polygon {
+      fill: hsl(300, 10%, 90%);
+    }
+    
+    .tile.q-axis-same.r-axis-same polygon {
+      fill: hsl(160, 20%, 80%);
+    }
+    
+    .tile.q-axis-same tspan.q {
+      fill: hsl( 90, 100%, 35%);
+      font-weight: bold;
+    }
+    
+    .tile.r-axis-same tspan.r {
+      fill: hsl(200, 100%, 45%);
+      font-weight: bold;
+    }
+    
+    .tile.s-axis-same tspan.s {
+      fill: hsl(300, 80%, 50%);
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <svg >
+    <circle cx="0" cy="0" r="10" transform="translate(10 30)" />
+  </svg>
+  <svg id="grid-offset-odd-r" width="480" height="480">
+
+    <g transform="translate(27.416697508022978,22.5)">
+      <g class="tile q-axis-same" transform="translate(0,0)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile q-axis-same" transform="translate(17.32050807568877,30)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(0,60)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(17.320508075688778,90)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(0,120)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(17.320508075688767,150)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(0,180)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(34.64101615137754,0)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile " transform="translate(51.96152422706632,30)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(34.64101615137754,60)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(51.96152422706632,90)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(34.64101615137754,120)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(51.96152422706631,150)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(34.641016151377556,180)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(69.28203230275508,0)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile " transform="translate(86.60254037844385,30)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(69.28203230275508,60)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(86.60254037844385,90)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(69.28203230275508,120)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(86.60254037844385,150)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(69.2820323027551,180)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(103.92304845413264,0)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile " transform="translate(121.2435565298214,30)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(103.92304845413264,60)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(121.2435565298214,90)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(103.92304845413264,120)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(121.24355652982139,150)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(103.92304845413264,180)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(138.56406460551017,0)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile " transform="translate(155.88457268119893,30)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(138.56406460551017,60)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(155.88457268119896,90)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(138.56406460551017,120)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(155.88457268119893,150)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(138.56406460551017,180)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(173.2050807568877,0)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile " transform="translate(190.5255888325765,30)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(173.2050807568877,60)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(190.5255888325765,90)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(173.2050807568877,120)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(190.5255888325765,150)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile" transform="translate(173.2050807568877,180)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile " transform="translate(207.84609690826528,0)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile  " transform="translate(225.16660498395407,30)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile " transform="translate(207.84609690826525,60)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile " transform="translate(225.16660498395402,90)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile " transform="translate(207.84609690826528,120)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+
+      </g>
+      <g class="tile " transform="translate(225.16660498395402,150)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+      </g>
+      <g class="tile " transform="translate(207.84609690826528,180)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+      </g>
+    </g>
+  </svg>
+</body>
+
+</html>

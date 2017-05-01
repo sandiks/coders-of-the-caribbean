@@ -1,20 +1,4 @@
-#stream
-https://www.liveedu.tv/morrki/210dE-coders-of-the-caribbean/
 
-#game contets
-https://www.codingame.com/ide/challenge/coders-of-the-caribbean
-
-
-
-For each one of your ships, one of the following commands:
-MOVE x y: move automatically towards the specified coordinate.
-FIRE x y: launch a cannon ball to the specified coordinate.
-MINE: place a mine on the cell behind the ship.
-PORT: turn the ship left.
-STARBOARD: turn the ship right.
-FASTER: speed the ship up.
-SLOWER: speed the ship down.
-WAIT: perform no action.
 
 --------------hexagonal greed
 # convert cube to axial
@@ -34,3 +18,13 @@ row = z
 x = col - (row - (row&1)) / 2
 z = row
 y = -x-z
+
+----------tiles
+<g class="tile" transform="translate(0,0)">
+        <polygon points="20.000,0.000 10.000,17.321 -10.000,17.321 -20.000,0.000 -10.000,-17.321 10.000,-17.321" transform="rotate(-30)"></polygon>
+        <text y="0.4em">
+          <tspan class="q">0</tspan>
+          <tspan>, </tspan>
+          <tspan class="r">0</tspan>
+        </text>
+      </g>
